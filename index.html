@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Provas Disciplinas EAD 2026.1 — UNICEPLAC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="header-inner">
+    <button type="button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="logo-link" aria-label="Página inicial">
+      <img src="logo.png" alt="UNICEPLAC" class="logo-img">
+    </button>
+    <nav>
+      <a href="index.html" class="ativo">1ª Chamada</a>
+      <a href="segunda-chamada.html">2ª Chamada</a>
+      <a href="provas-finais.html">Prova Final (Recuperação)</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── HERO COM ANIMAÇÃO ── -->
+<section class="hero">
+  <canvas class="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-gradient" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-kicker">
+      <span class="hero-kicker-dot"></span>
+      Semestre 2026.1 · Provas regulares
+    </div>
+    <h1>Provas das Disciplinas <span class="hero-em">EAD</span></h1>
+    <p class="hero-sub">Datas, horários e laboratórios para realização das provas presenciais das disciplinas EAD — 2º Bimestre e 2º Módulo (2026.1).</p>
+    <div class="hero-cards">
+      <div class="hero-card">
+        <div class="hero-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        </div>
+        <div class="hero-card-label">Período</div>
+        <div class="hero-card-value">22 a 27/06</div>
+        <div class="hero-card-sub">Segunda a sábado</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="hero-card-label">Horário</div>
+        <div class="hero-card-value">08h30 – 22h</div>
+        <div class="hero-card-sub">Sábado somente até 12h</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <div class="hero-card-label">Agendamento</div>
+        <div class="hero-card-value">Não necessário</div>
+        <div class="hero-card-sub">Compareça com documento</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── BARRA DE ATENÇÃO ── -->
+<div class="alerta-bar">
+  <div class="alerta-inner">
+    <div class="alerta-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+    </div>
+    <div class="alerta-conteudo">
+      <div class="alerta-label">Atenção</div>
+      <ul class="alerta-items">
+        <li>Leve documento oficial com foto ou carteirinha do UNICEPLAC.</li>
+        <li>Evite os últimos dias e horários — a alta demanda pode gerar fila.</li>
+        <li>Não é permitido o uso de aparelhos eletrônicos (como celulares, smartwatches e similares) ou materiais de consulta durante a prova.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ── FAQ ── -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="section-label">Informações importantes</div>
+    <h2 class="section-title">O que você precisa saber</h2>
+    <p class="section-desc">Tudo sobre o funcionamento das provas presenciais das disciplinas EAD neste semestre.</p>
+
+    <div class="faq-grid">
+
+      <div class="faq-bloco destaque">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+        </div>
+        <div class="faq-titulo">Como funcionam as provas</div>
+        <div class="faq-texto">As provas são <strong>presenciais</strong> e realizadas nos computadores dos laboratórios de informática do UNICEPLAC. Ambiente controlado, com fiscais durante toda a aplicação.</div>
+      </div>
+
+      <div class="faq-bloco aviso">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="faq-titulo">Encerramento pontual</div>
+        <div class="faq-texto">O encerramento é <strong>pontualmente às 22h</strong> nos dias úteis e <strong>às 12h no sábado (27/06)</strong>. Provas iniciadas próximo ao fechamento dispõem apenas do tempo restante.</div>
+        <div class="faq-texto">Em razão dos jogos da Seleção Brasileira, os horários poderão ser alterados. Fique atento aos avisos publicados no AVA.</div>
+      </div>
+
+      <div class="faq-bloco">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/><path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/><path d="M3 12v6c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-6"/></svg>
+        </div>
+        <div class="faq-titulo">Preciso agendar?</div>
+        <div class="faq-texto"><strong>Não.</strong> Basta comparecer no período com documento oficial com foto ou carteirinha do UNICEPLAC. O fiscal faz a identificação e você digita o CPF para iniciar.</div>
+      </div>
+
+      <div class="faq-bloco">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </div>
+        <div class="faq-titulo">Estudo à noite, posso fazer de manhã?</div>
+        <div class="faq-texto"><strong>Sim.</strong> A prova pode ser realizada em qualquer turno, independentemente do horário das aulas. Manhã e tarde tendem a ter menor fluxo de alunos.</div>
+      </div>
+
+      <div class="faq-bloco">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+        </div>
+        <div class="faq-titulo">Posso fazer várias provas no mesmo dia?</div>
+        <div class="faq-texto"><strong>Sim.</strong> Você pode realizar todas as provas no mesmo dia ou distribuí-las em dias e horários diferentes, dentro do período de aplicação.</div>
+      </div>
+
+      <div class="faq-bloco">
+        <div class="faq-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="faq-titulo">E se os computadores estiverem ocupados?</div>
+        <div class="faq-texto">Nos últimos dias e horários, o fluxo aumenta. Caso todos estejam em uso, é necessário <strong>aguardar em fila</strong>. Se possível, evite os últimos dias do período.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── LABORATÓRIOS ── -->
+<section id="labs">
+  <div class="section-inner">
+    <div class="section-label">Locais de realização</div>
+    <h2 class="section-title">Laboratórios disponíveis</h2>
+    <p class="section-desc">Filtre por bloco ou turno. Em telas menores, arraste a tabela horizontalmente para ver todas as datas.</p>
+
+    <div class="labs-controls">
+      <div class="filter-group">
+        <label>Bloco</label>
+        <div class="botoes">
+          <button class="filter-btn ativo" onclick="filtrar('todos', this)">Todos</button>
+          <button class="filter-btn" onclick="filtrar('A', this)">Bloco A</button>
+          <button class="filter-btn" onclick="filtrar('EF', this)">Bloco EF</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Turno</label>
+        <div class="botoes">
+          <button class="turno-btn ativo" onclick="filtrarTurno('todos', this)">Todos</button>
+          <button class="turno-btn" onclick="filtrarTurno('Manhã', this)">Manhã</button>
+          <button class="turno-btn" onclick="filtrarTurno('Tarde', this)">Tarde</button>
+          <button class="turno-btn" onclick="filtrarTurno('Noite', this)">Noite</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption class="sr-only">Disponibilidade dos laboratórios por bloco, turno e dia, de 22 a 27 de junho de 2026</caption>
+        <thead>
+          <tr>
+            <th scope="col">Bloco</th>
+            <th scope="col">Laboratório</th>
+            <th scope="col">Turno / Horário</th>
+            <th scope="col"><span class="th-dia">Seg</span><span class="th-data">22/06</span></th>
+            <th scope="col"><span class="th-dia">Ter</span><span class="th-data">23/06</span></th>
+            <th scope="col"><span class="th-dia">Qua</span><span class="th-data">24/06</span></th>
+            <th scope="col"><span class="th-dia">Qui</span><span class="th-data">25/06</span></th>
+            <th scope="col"><span class="th-dia">Sex</span><span class="th-data">26/06</span></th>
+            <th scope="col" class="col-sabado">
+              <span class="th-dia">Sáb</span>
+              <span class="th-data">27/06</span>
+              <span class="th-nota">somente até 12h</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="tbody-labs"></tbody>
+      </table>
+    </div>
+
+    <div class="legenda">
+      <div class="legenda-item">
+        <div class="legenda-dot" style="background:var(--verde);"></div> Disponível
+      </div>
+      <div class="legenda-item">
+        <div class="legenda-dot" style="background:var(--neutro-40);"></div> Indisponível
+      </div>
+      <div class="legenda-sabado">
+        Sábado: laboratórios abertos somente das 08h30 às 12h
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-instituicao">Centro Universitário UNICEPLAC</div>
+    <div class="footer-meta">© 2026 UNICEPLAC. Todos os direitos reservados.</div>
+  </div>
+</footer>
+
+<script src="hero-animation.js"></script>
+<script src="script.js"></script>
+<script src="config-etapas.js"></script>
+<script src="etapas.js"></script>
+<script src="config-aviso.js"></script>
+<script src="aviso.js"></script>
+</body>
+</html>
