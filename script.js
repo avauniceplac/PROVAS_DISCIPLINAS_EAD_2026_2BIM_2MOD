@@ -69,7 +69,7 @@ const labs = [
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar',   turno:'Tarde', horario:'12h – 17h',
     d: [DIS, DIS, DIS, DIS, DIS] },
   { bloco:'EF', lab:'LAB 12', local:'Bloco EF, 4º Andar',   turno:'Noite', horario:'17h – 22h',
-    d: [IND, DIS, DIS, DIS, DIS] },
+    d: [DIS, DIS, DIS, DIS, DIS] },
 
   { bloco:'EF', lab:'LAB 13', local:'Bloco EF, 2º Andar', turno:'Manhã', horario:'08h30 – 12h',
     d: [DIS, DIS, DIS, DIS, DIS], sab: DIS },
