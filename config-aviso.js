@@ -18,7 +18,7 @@ const AVISO = {
 
   /* ===== RECUPERAÇÃO / PROVA FINAL (provas-finais.html e páginas internas) ===== */
   recuperacao: {
-    ativo:    "on",
+    ativo:    "off",
     titulo:   "Atenção",
     mensagem: "Estudantes com Nota Final inferior a 2,0 pontos não poderão realizar a Prova Final. Isso ocorre porque, mesmo obtendo a nota máxima (10,0 pontos) na Prova Final, não seria possível alcançar a média mínima de 6,0 pontos exigida para aprovação na disciplina.",
   },
