@@ -5,8 +5,8 @@ const AVISO = {
   /* ===== PÁGINA INICIAL — Provas 1ª Chamada (index.html) ===== */
   regulares: {
     ativo:    "off",
-    titulo:   "Atenção: horários poderão ser alterados",
-    mensagem: "Em razão dos jogos da Seleção Brasileira na Copa, alguns horários de aplicação das provas poderão ser reduzidos. Fique atento aos avisos publicados no AVA.",
+    titulo:   "Atenção",
+    mensagem: "Em razão do jogo da Seleção Brasileira, na quarta-feira, 24/06/2026, a aplicação das provas encerrará às 17h.",
   },
 
   /* ===== 2ª CHAMADA (segunda-chamada.html) ===== */
