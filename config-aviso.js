@@ -6,7 +6,7 @@ const AVISO = {
   regulares: {
     ativo:    "off",
     titulo:   "Atenção",
-    mensagem: "Em razão do jogo da Seleção Brasileira, na quarta-feira, 24/06/2026, a aplicação das provas encerrará às 17h.",
+    mensagem: "Em razão do jogo da Seleção Brasileira, na quarta-feira, 24/06/2026, a aplicação das provas das disciplinas EAD ocorrerá das 08h30 às 17h, com encerramento das atividades da instituição também às 17h..",
   },
 
   /* ===== 2ª CHAMADA (segunda-chamada.html) ===== */
