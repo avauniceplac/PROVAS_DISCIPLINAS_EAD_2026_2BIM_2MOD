@@ -4,7 +4,7 @@ const AVISO = {
 
   /* ===== PÁGINA INICIAL — Provas 1ª Chamada (index.html) ===== */
   regulares: {
-    ativo:    "on",
+    ativo:    "off",
     titulo:   "Atenção",
     mensagem: "Em razão do jogo da Seleção Brasileira, na quarta-feira, 24/06/2026, a aplicação das provas das disciplinas EAD ocorrerá das 08h30 às 17h, com encerramento das atividades da instituição também às 17h..",
   },
