@@ -6,7 +6,7 @@ const AVISO = {
   regulares: {
     ativo:    "on",
     titulo:   "Atenção",
-    mensagem: "Últimos dias para realizar suas provas!",
+    mensagem: "Último dia!",
   },
 
   /* ===== 2ª CHAMADA (segunda-chamada.html) ===== */
