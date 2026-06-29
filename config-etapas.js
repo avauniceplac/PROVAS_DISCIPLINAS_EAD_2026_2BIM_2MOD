@@ -4,7 +4,7 @@ const ETAPAS = {
   /* ativa | expirada | oculta | em-breve */
 
   estado: {
-    regulares:      "ativa",      // Provas 2º Bim/Mód  (index.html)
+    regulares:      "expirada",      // Provas 2º Bim/Mód  (index.html)
     segundaChamada: "ativa",      // 2ª Chamada         (segunda-chamada.html)
     recuperacao:    "oculta",      // Recuperação        (provas-finais.html + finais)
   },
