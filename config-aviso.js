@@ -4,7 +4,7 @@ const AVISO = {
 
   /* ===== PÁGINA INICIAL — Provas 1ª Chamada (index.html) ===== */
   regulares: {
-    ativo:    "on",
+    ativo:    "off",
     titulo:   "Atenção",
     mensagem: "Último dia!",
   },
